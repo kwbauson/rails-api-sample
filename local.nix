@@ -14,4 +14,5 @@ with scope; [
   '')
   ruby
   rufo
+  postgresql
 ]

@@ -6,13 +6,4 @@ default: &default
 development:
   <<: *default
   database: tmp_development
-
-test:
-  <<: *default
-  database: tmp_test
-
-production:
-  <<: *default
-  database: tmp_production
-  username: tmp
-  password: <%= ENV['TMP_DATABASE_PASSWORD'] %>
+  url: postgres://localhost
