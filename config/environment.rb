@@ -1,7 +1,7 @@
 require_relative "application"
 
 Rails.application.configure do
-  config.cache_classes = true
+  config.cache_classes = false
   config.eager_load = true
   config.active_support.deprecation = :log
   config.active_support.disallowed_deprecation = :raise
